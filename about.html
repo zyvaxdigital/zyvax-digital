@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>About ZyvaX Digital | E-commerce Growth Agency Pakistan</title>
+
+  <meta name="description"
+        content="Learn about ZyvaX Digital, a Pakistan-focused e-commerce growth partner helping online sellers with Shopify, TikTok Ads, COD operations, mentorship and e-commerce startup solutions.">
+
+  <meta name="robots" content="index, follow">
+
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="canonical"
+        href="https://www.zyvaxdigital.com/about.html">
+
+  <meta property="og:title"
+        content="About ZyvaX Digital">
+
+  <meta property="og:description"
+        content="Pakistan-focused e-commerce growth solutions from launch to acquisition and operations.">
+
+  <meta property="og:type"
+        content="website">
+
+  <meta property="og:url"
+        content="https://www.zyvaxdigital.com/about.html">
+
+  <!-- SHARED CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+
+    /* =====================================================
+       ABOUT PAGE
+       ===================================================== */
+
+    .about-hero {
+      padding-top: 170px;
+      padding-bottom: 100px;
+    }
+
+    .about-hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .about-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+
+      padding: 7px 12px;
+
+      border: 1px solid rgba(123,44,255,.16);
+      border-radius: 999px;
+
+      background: rgba(255,255,255,.75);
+
+      color: var(--purple);
+
+      font-size: 12px;
+      font-weight: 800;
+
+      margin-bottom: 22px;
+    }
+
+    .about-label::before {
+      content: "";
+
+      width: 7px;
+      height: 7px;
+
+      border-radius: 50%;
+
+      background: var(--pink);
+
+      box-shadow:
+        0 0 15px var(--pink);
+    }
+
+    .about-hero h1 {
+      max-width: 760px;
+    }
+
+    .about-intro {
+      margin-top: 25px;
+
+      max-width: 650px;
+
+      color: var(--muted);
+
+      font-size: 18px;
+      line-height: 1.75;
+    }
+
+    .about-visual {
+      position: relative;
+
+      min-height: 420px;
+
+      display: grid;
+      place-items: center;
+    }
+
+    .about-orb {
+      position: absolute;
+
+      width: 300px;
+      height: 300px;
+
+      border-radius: 50%;
+
+      background:
+        radial-gradient(
+          circle at 35% 30%,
+          rgba(255,255,255,.95),
+          rgba(160,70,255,.18),
+          rgba(255,62,181,.08),
+          transparent 70%
+        );
+    }
+
+    .about-card {
+      position: relative;
+      z-index: 2;
+
+      width: min(100%, 390px);
+
+      padding: 32px;
+
+      border-radius: 28px;
+
+      background: rgba(255,255,255,.82);
+
+      border: 1px solid rgba(123,44,255,.15);
+
+      box-shadow:
+        0 35px 90px rgba(40,20,80,.14);
+
+      backdrop-filter: blur(20px);
+    }
+
+    .about-card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      padding-bottom: 18px;
+
+      border-bottom: 1px solid var(--border);
+    }
+
+    .about-card-title {
+      font-weight: 850;
+    }
+
+    .about-status {
+      font-size: 10px;
+      font-weight: 900;
+
+      color: #7c26e8;
+
+      background: #f3eaff;
+
+      padding: 6px 9px;
+
+      border-radius: 999px;
+    }
+
+    .about-card-list {
+      display: grid;
+      gap: 12px;
+
+      margin-top: 20px;
+    }
+
+    .about-card-item {
+      padding: 14px;
+
+      background: white;
+
+      border: 1px solid var(--border);
+
+      border-radius: 15px;
+
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .about-card-item span {
+      display: block;
+
+      color: var(--muted);
+
+      font-size: 11px;
+
+      font-weight: 500;
+
+      margin-top: 3px;
+    }
+
+    /* =====================================================
+       MISSION
+       ===================================================== */
+
+    .about-mission {
+      background: #fafafd;
+
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .mission-grid {
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+
+      gap: 60px;
+
+      align-items: center;
+    }
+
+    .mission-copy p {
+      color: var(--muted);
+
+      font-size: 16px;
+
+      margin-top: 18px;
+
+      max-width: 620px;
+    }
+
+    .mission-points {
+      display: grid;
+
+      gap: 14px;
+    }
+
+    .mission-point {
+      padding: 20px;
+
+      background: white;
+
+      border: 1px solid var(--border);
+
+      border-radius: 17px;
+
+      box-shadow:
+        0 10px 30px rgba(20,20,30,.04);
+    }
+
+    .mission-point strong {
+      display: block;
+
+      margin-bottom: 5px;
+    }
+
+    .mission-point span {
+      color: var(--muted);
+
+      font-size: 13px;
+    }
+
+    /* =====================================================
+       PILLARS
+       ===================================================== */
+
+    .about-pillars-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(4, 1fr);
+
+      gap: 16px;
+    }
+
+    .about-pillar {
+      padding: 28px;
+
+      border-radius: 22px;
+
+      background: white;
+
+      border: 1px solid var(--border);
+
+      box-shadow:
+        0 15px 45px rgba(30,20,60,.05);
+
+      transition: .3s;
+    }
+
+    .about-pillar:hover {
+      transform: translateY(-6px);
+
+      border-color:
+        rgba(123,44,255,.25);
+
+      box-shadow:
+        0 25px 60px rgba(50,20,100,.10);
+    }
+
+    .about-pillar-number {
+      color: var(--purple);
+
+      font-size: 11px;
+      font-weight: 900;
+
+      letter-spacing: 1px;
+
+      margin-bottom: 22px;
+    }
+
+    .about-pillar h3 {
+      font-size: 20px;
+
+      line-height: 1.15;
+
+      letter-spacing: -.6px;
+    }
+
+    .about-pillar p {
+      color: var(--muted);
+
+      font-size: 13px;
+
+      line-height: 1.7;
+
+      margin-top: 12px;
+    }
+
+    /* =====================================================
+       ECOSYSTEM
+       ===================================================== */
+
+    .ecosystem {
+      background: #111118;
+
+      color: white;
+
+      position: relative;
+
+      overflow: hidden;
+    }
+
+    .ecosystem .section-label {
+      color: #d08cff;
+    }
+
+    .ecosystem .section-head p {
+      color: #aaaab5;
+    }
+
+    .ecosystem-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(5, 1fr);
+
+      gap: 10px;
+    }
+
+    .ecosystem-item {
+      padding: 25px 20px;
+
+      min-height: 160px;
+
+      border:
+        1px solid rgba(255,255,255,.10);
+
+      border-radius: 18px;
+
+      background:
+        rgba(255,255,255,.035);
+
+      transition: .3s;
+    }
+
+    .ecosystem-item:hover {
+      transform: translateY(-5px);
+
+      background:
+        rgba(157,66,255,.10);
+
+      border-color:
+        rgba(157,66,255,.35);
+    }
+
+    .ecosystem-number {
+      color: #b878ff;
+
+      font-size: 11px;
+      font-weight: 900;
+    }
+
+    .ecosystem-item h3 {
+      margin-top: 35px;
+
+      font-size: 15px;
+    }
+
+    .ecosystem-item p {
+      color: #aaaab5;
+
+      font-size: 12px;
+
+      margin-top: 6px;
+    }
+
+    /* =====================================================
+       CTA
+       ===================================================== */
+
+    .about-cta {
+      padding-bottom: 120px;
+    }
+
+    /* =====================================================
+       RESPONSIVE
+       ===================================================== */
+
+    @media (max-width: 950px) {
+
+      .about-hero-grid,
+      .mission-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .about-pillars-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .ecosystem-grid {
+        grid-template-columns:
+          repeat(3, 1fr);
+      }
+
+    }
+
+    @media (max-width: 650px) {
+
+      .about-hero {
+        padding-top: 125px;
+        padding-bottom: 75px;
+      }
+
+      .about-intro {
+        font-size: 16px;
+      }
+
+      .about-visual {
+        min-height: 350px;
+      }
+
+      .about-orb {
+        width: 240px;
+        height: 240px;
+      }
+
+      .about-pillars-grid,
+      .ecosystem-grid {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+  </style>
+
+  <!-- STRUCTURED DATA -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About ZyvaX Digital",
+    "url": "https://www.zyvaxdigital.com/about.html",
+    "description": "About ZyvaX Digital, a Pakistan-focused e-commerce growth partner."
+  }
+  </script>
+
+</head>
+
+<body>
+
+<!-- =====================================================
+     HEADER
+     ===================================================== -->
+
+<header>
+
+  <div class="container nav">
+
+    <a href="index.html" class="logo">
+      ZyvaX <span>Digital</span>
+    </a>
+
+    <nav class="nav-links" id="navMenu">
+
+      <a href="index.html">
+        Home
+      </a>
+
+      <a href="index.html#services">
+        Services
+      </a>
+
+      <a href="index.html#startup">
+        E-commerce Startup
+      </a>
+
+      <a href="services/live-mentorship.html">
+        Live Mentorship
+      </a>
+
+      <a href="blog/index.html">
+        Blog
+      </a>
+
+      <a href="about.html">
+        About
+      </a>
+
+      <a href="index.html#contact"
+         class="nav-cta">
+        Get Started →
+      </a>
+
+    </nav>
+
+    <button
+      class="menu-btn"
+      id="menuBtn"
+      aria-label="Open navigation">
+      ☰
+    </button>
+
+  </div>
+
+</header>
+
+
+<!-- =====================================================
+     MAIN
+     ===================================================== -->
+
+<main>
+
+
+<!-- =====================================================
+     ABOUT HERO
+     ===================================================== -->
+
+<section class="about-hero">
+
+  <div class="container about-hero-grid">
+
+    <div class="reveal">
+
+      <div class="about-label">
+        About ZyvaX Digital
+      </div>
+
+      <h1>
+
+        E-commerce
+        <span class="gradient-text">
+          built as a system.
+        </span>
+
+      </h1>
+
+      <p class="about-intro">
+
+        ZyvaX Digital is a Pakistan-focused e-commerce
+        growth partner helping online sellers build,
+        launch, acquire customers and manage the
+        operational side of their businesses.
+
+      </p>
+
+      <div class="hero-buttons">
+
+        <a
+          href="index.html#services"
+          class="btn btn-primary">
+
+          Explore Our Services →
+
+        </a>
+
+        <a
+          href="index.html#contact"
+          class="btn btn-secondary">
+
+          Get Started
+
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="about-visual reveal">
+
+      <div class="about-orb"></div>
+
+      <div class="about-card">
+
+        <div class="about-card-top">
+
+          <div class="about-card-title">
+            ZyvaX Digital
+          </div>
+
+          <div class="about-status">
+            E-COMMERCE
+          </div>
+
+        </div>
+
+
+        <div class="about-card-list">
+
+          <div class="about-card-item">
+
+            Shopify
+
+            <span>
+              Store infrastructure
+            </span>
+
+          </div>
+
+
+          <div class="about-card-item">
+
+            TikTok Ads
+
+            <span>
+              Customer acquisition
+            </span>
+
+          </div>
+
+
+          <div class="about-card-item">
+
+            COD Operations
+
+            <span>
+              Order management
+            </span>
+
+          </div>
+
+
+          <div class="about-card-item">
+
+            Education
+
+            <span>
+              Live practical guidance
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     MISSION
+     ===================================================== -->
+
+<section class="about-mission">
+
+  <div class="container mission-grid">
+
+    <div class="mission-copy reveal">
+
+      <div class="section-label">
+        Our Approach
+      </div>
+
+      <h2>
+        More than a single service.
+      </h2>
+
+      <p>
+
+        An e-commerce business has multiple moving parts.
+        A store needs traffic. Traffic needs a strong offer.
+        Orders need operational handling.
+
+      </p>
+
+      <p>
+
+        ZyvaX Digital brings these parts together into
+        one connected ecosystem so sellers can access
+        the infrastructure and support required at
+        different stages of their journey.
+
+      </p>
+
+    </div>
+
+
+    <div class="mission-points reveal">
+
+      <div class="mission-point">
+
+        <strong>
+          Build
+        </strong>
+
+        <span>
+          Create the storefront and technical foundation
+          required to start selling.
+        </span>
+
+      </div>
+
+
+      <div class="mission-point">
+
+        <strong>
+          Acquire
+        </strong>
+
+        <span>
+          Use paid customer-acquisition systems to bring
+          qualified traffic toward the store.
+        </span>
+
+      </div>
+
+
+      <div class="mission-point">
+
+        <strong>
+          Operate
+        </strong>
+
+        <span>
+          Handle COD confirmation, fulfilment and
+          order-related operations.
+        </span>
+
+      </div>
+
+
+      <div class="mission-point">
+
+        <strong>
+          Learn
+        </strong>
+
+        <span>
+          Develop practical e-commerce knowledge through
+          live guidance and mentorship.
+        </span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     PILLARS
+     ===================================================== -->
+
+<section>
+
+  <div class="container">
+
+    <div class="section-head reveal">
+
+      <div class="section-label">
+        What We Stand For
+      </div>
+
+      <h2>
+        Built around the realities of online selling.
+      </h2>
+
+      <p>
+
+        Our services are structured around the actual
+        workflow of an e-commerce business.
+
+      </p>
+
+    </div>
+
+
+    <div class="about-pillars-grid">
+
+      <article class="about-pillar reveal">
+
+        <div class="about-pillar-number">
+          01 / FOCUS
+        </div>
+
+        <h3>
+          E-commerce First
+        </h3>
+
+        <p>
+
+          The business is focused specifically on
+          e-commerce rather than offering generic
+          digital marketing services.
+
+        </p>
+
+      </article>
+
+
+      <article class="about-pillar reveal">
+
+        <div class="about-pillar-number">
+          02 / ACQUISITION
+        </div>
+
+        <h3>
+          Traffic Matters
+        </h3>
+
+        <p>
+
+          Store infrastructure is paired with
+          customer acquisition through TikTok
+          advertising.
+
+        </p>
+
+      </article>
+
+
+      <article class="about-pillar reveal">
+
+        <div class="about-pillar-number">
+          03 / OPERATIONS
+        </div>
+
+        <h3>
+          Orders Matter
+        </h3>
+
+        <p>
+
+          Selling is only one part of the journey.
+          COD and fulfilment operations are part
+          of the wider system.
+
+        </p>
+
+      </article>
+
+
+      <article class="about-pillar reveal">
+
+        <div class="about-pillar-number">
+          04 / EDUCATION
+        </div>
+
+        <h3>
+          Learn While Building
+        </h3>
+
+        <p>
+
+          Live mentorship focuses on practical
+          implementation instead of only consuming
+          recorded information.
+
+        </p>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     ECOSYSTEM
+     ===================================================== -->
+
+<section class="ecosystem">
+
+  <div class="container">
+
+    <div class="section-head reveal">
+
+      <div class="section-label">
+        The ZyvaX Ecosystem
+      </div>
+
+      <h2>
+        From product idea to growing store.
+      </h2>
+
+      <p>
+
+        Different services can support different stages
+        of an e-commerce business.
+
+      </p>
+
+    </div>
+
+
+    <div class="ecosystem-grid">
+
+      <div class="ecosystem-item reveal">
+
+        <div class="ecosystem-number">
+          01
+        </div>
+
+        <h3>
+          Product
+        </h3>
+
+        <p>
+          Research and product guidance.
+        </p>
+
+      </div>
+
+
+      <div class="ecosystem-item reveal">
+
+        <div class="ecosystem-number">
+          02
+        </div>
+
+        <h3>
+          Store
+        </h3>
+
+        <p>
+          Shopify storefront and setup.
+        </p>
+
+      </div>
+
+
+      <div class="ecosystem-item reveal">
+
+        <div class="ecosystem-number">
+          03
+        </div>
+
+        <h3>
+          Acquisition
+        </h3>
+
+        <p>
+          TikTok Ads and customer acquisition.
+        </p>
+
+      </div>
+
+
+      <div class="ecosystem-item reveal">
+
+        <div class="ecosystem-number">
+          04
+        </div>
+
+        <h3>
+          Operations
+        </h3>
+
+        <p>
+          COD, fulfilment and order handling.
+        </p>
+
+      </div>
+
+
+      <div class="ecosystem-item reveal">
+
+        <div class="ecosystem-number">
+          05
+        </div>
+
+        <h3>
+          Growth
+        </h3>
+
+        <p>
+          Optimization, education and scaling.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     FINAL CTA
+     ===================================================== -->
+
+<section class="about-cta">
+
+  <div class="container">
+
+    <div class="cta-box reveal">
+
+      <h2>
+        Ready to build your e-commerce business?
+      </h2>
+
+      <p>
+
+        Tell us where you are and what you need.
+        We'll help identify the right ZyvaX Digital solution.
+
+      </p>
+
+      <a
+        href="index.html#contact"
+        class="btn">
+
+        Get Started →
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<footer>
+
+  <div class="container">
+
+    <div class="footer-grid">
+
+
+      <div class="footer-brand">
+
+        <a href="index.html" class="logo">
+          ZyvaX <span>Digital</span>
+        </a>
+
+        <p>
+
+          Complete e-commerce growth solutions for
+          Pakistani online sellers — from launch to
+          acquisition and operations.
+
+        </p>
+
+      </div>
+
+
+      <div class="footer-col">
+
+        <h4>
+          Services
+        </h4>
+
+        <a href="services/tiktok-ads.html">
+          TikTok Ads
+        </a>
+
+        <a href="services/shopify-store-design.html">
+          Shopify Store Design
+        </a>
+
+        <a href="services/cod-3pl.html">
+          3PL / COD
+        </a>
+
+        <a href="services/live-mentorship.html">
+          Live Mentorship
+        </a>
+
+        <a href="services/ecommerce-startup.html">
+          E-commerce Startup
+        </a>
+
+      </div>
+
+
+      <div class="footer-col">
+
+        <h4>
+          Company
+        </h4>
+
+        <a href="about.html">
+          About
+        </a>
+
+        <a href="blog/index.html">
+          Blog
+        </a>
+
+        <a href="index.html#contact">
+          Get Started
+        </a>
+
+      </div>
+
+
+      <div class="footer-col">
+
+        <h4>
+          Contact
+        </h4>
+
+        <a
+          href="https://wa.me/923000000000"
+          target="_blank"
+          rel="noopener">
+
+          WhatsApp
+
+        </a>
+
+        <a href="mailto:hello@zyvaxdigital.com">
+          hello@zyvaxdigital.com
+        </a>
+
+        <a href="terms.html">
+          Terms & Conditions
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+      <span>
+        © 2026 ZyvaX Digital. All rights reserved.
+      </span>
+
+      <span>
+        Pakistan
+      </span>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+<!-- SHARED JS -->
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
