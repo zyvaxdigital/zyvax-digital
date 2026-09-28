@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>E-commerce Startup Pakistan | ZyvaX Digital</title>
+
+  <meta name="description"
+        content="Launch your e-commerce business from zero with ZyvaX Digital. Get a Shopify store, product guidance, tracking setup, ad account setup and live marketing guidance.">
+
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical"
+        href="https://www.zyvaxdigital.com/services/ecommerce-startup.html">
+
+  <meta property="og:title"
+        content="E-commerce Startup Pakistan | ZyvaX Digital">
+
+  <meta property="og:description"
+        content="Everything you need to start your e-commerce business from zero.">
+
+  <meta property="og:type"
+        content="website">
+
+  <meta property="og:url"
+        content="https://www.zyvaxdigital.com/services/ecommerce-startup.html">
+
+  <link rel="stylesheet" href="../css/style.css">
+
+  <style>
+
+    /* =========================================================
+       STARTUP PAGE
+       ========================================================= */
+
+    .startup-hero {
+      padding: 155px 0 105px;
+    }
+
+    .startup-hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .startup-hero h1 {
+      max-width: 820px;
+    }
+
+    .startup-copy {
+      max-width: 650px;
+      margin-top: 25px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.75;
+    }
+
+    .startup-buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 32px;
+    }
+
+    /* =========================================================
+       STARTUP VISUAL
+       ========================================================= */
+
+    .startup-visual {
+      min-height: 480px;
+      display: grid;
+      place-items: center;
+      position: relative;
+    }
+
+    .startup-panel {
+      width: min(100%, 440px);
+      padding: 25px;
+      border-radius: 27px;
+      background: rgba(255,255,255,.86);
+      border: 1px solid rgba(123,44,255,.15);
+      box-shadow: 0 35px 90px rgba(40,20,80,.15);
+      backdrop-filter: blur(18px);
+      position: relative;
+      z-index: 2;
+    }
+
+    .startup-panel-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .startup-panel-title {
+      font-weight: 900;
+      font-size: 15px;
+    }
+
+    .status {
+      padding: 6px 9px;
+      border-radius: 999px;
+      background: #f2eaff;
+      color: var(--purple);
+      font-size: 10px;
+      font-weight: 900;
+    }
+
+    .startup-flow {
+      display: grid;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .startup-step {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      padding: 14px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 15px;
+    }
+
+    .startup-step-number {
+      width: 38px;
+      height: 38px;
+      flex-shrink: 0;
+      display: grid;
+      place-items: center;
+      border-radius: 11px;
+      background: var(--gradient);
+      color: white;
+      font-size: 11px;
+      font-weight: 900;
+    }
+
+    .startup-step strong {
+      display: block;
+      font-size: 13px;
+    }
+
+    .startup-step small {
+      color: #858591;
+      font-size: 11px;
+    }
+
+    .startup-orb {
+      position: absolute;
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      background:
+        radial-gradient(
+          circle at 40% 35%,
+          rgba(157,66,255,.20),
+          rgba(255,62,181,.08),
+          transparent 70%
+        );
+      animation: float 7s ease-in-out infinite;
+    }
+
+    /* =========================================================
+       PROBLEM
+       ========================================================= */
+
+    .startup-problem {
+      background: #fafafd;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .problem-grid-startup {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .problem-points {
+      display: grid;
+      gap: 12px;
+    }
+
+    .problem-point {
+      padding: 17px 20px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(20,20,30,.035);
+      font-size: 14px;
+      font-weight: 650;
+    }
+
+    .problem-point::before {
+      content: "×";
+      display: inline-grid;
+      place-items: center;
+      width: 25px;
+      height: 25px;
+      margin-right: 10px;
+      border-radius: 50%;
+      color: #c32b72;
+      background: #fff0f8;
+      font-weight: 900;
+    }
+
+    /* =========================================================
+       INCLUDED
+       ========================================================= */
+
+    .included-grid-startup {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 18px;
+    }
+
+    .included-card-startup {
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      background: white;
+      box-shadow: 0 12px 35px rgba(20,20,30,.045);
+      transition: .3s;
+    }
+
+    .included-card-startup:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 22px 50px rgba(40,20,80,.09);
+    }
+
+    .included-number {
+      color: var(--purple);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 1px;
+    }
+
+    .included-card-startup h3 {
+      margin-top: 18px;
+      font-size: 19px;
+      line-height: 1.2;
+    }
+
+    .included-card-startup p {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    /* =========================================================
+       JOURNEY
+       ========================================================= */
+
+    .journey {
+      background: #111118;
+      color: white;
+      overflow: hidden;
+    }
+
+    .journey .section-label {
+      color: #d08cff;
+    }
+
+    .journey .section-head p {
+      color: #aaaab5;
+    }
+
+    .journey-grid {
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      gap: 10px;
+    }
+
+    .journey-card {
+      min-height: 185px;
+      padding: 22px;
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: 19px;
+      background: rgba(255,255,255,.035);
+      transition: .3s;
+    }
+
+    .journey-card:hover {
+      transform: translateY(-5px);
+      background: rgba(157,66,255,.10);
+      border-color: rgba(157,66,255,.35);
+    }
+
+    .journey-card span {
+      color: #b878ff;
+      font-size: 11px;
+      font-weight: 900;
+    }
+
+    .journey-card h3 {
+      margin-top: 35px;
+      font-size: 16px;
+    }
+
+    .journey-card p {
+      margin-top: 8px;
+      color: #aaaab5;
+      font-size: 12px;
+    }
+
+    /* =========================================================
+       CHECKLIST
+       ========================================================= */
+
+    .checklist-box {
+      padding: 55px;
+      border-radius: 32px;
+      background:
+        radial-gradient(
+          circle at 90% 10%,
+          rgba(255,62,181,.12),
+          transparent 30%
+        ),
+        radial-gradient(
+          circle at 10% 90%,
+          rgba(123,44,255,.13),
+          transparent 35%
+        ),
+        #f7f4ff;
+      border: 1px solid rgba(123,44,255,.12);
+    }
+
+    .checklist {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 11px;
+      margin-top: 30px;
+    }
+
+    .checklist-item {
+      padding: 14px 16px;
+      background: rgba(255,255,255,.82);
+      border: 1px solid rgba(123,44,255,.10);
+      border-radius: 13px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .checklist-item::before {
+      content: "✓";
+      color: var(--purple);
+      margin-right: 9px;
+      font-weight: 900;
+    }
+
+    /* =========================================================
+       SUPPORT
+       ========================================================= */
+
+    .support-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .support-card {
+      padding: 35px;
+      border: 1px solid var(--border);
+      border-radius: 25px;
+      background: white;
+      box-shadow: var(--shadow);
+    }
+
+    .support-card h3 {
+      font-size: 22px;
+      margin-bottom: 16px;
+    }
+
+    .support-card p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .support-card ul {
+      list-style: none;
+      margin-top: 20px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .support-card li {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .support-card li::before {
+      content: "→";
+      color: var(--purple);
+      margin-right: 9px;
+      font-weight: 900;
+    }
+
+    /* =========================================================
+       CTA
+       ========================================================= */
+
+    .startup-offer {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    @media(max-width:950px) {
+
+      .startup-hero-grid,
+      .problem-grid-startup {
+        grid-template-columns: 1fr;
+      }
+
+      .included-grid-startup {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .journey-grid {
+        grid-template-columns: repeat(3,1fr);
+      }
+    }
+
+    @media(max-width:650px) {
+
+      .startup-hero {
+        padding-top: 125px;
+      }
+
+      .startup-copy {
+        font-size: 16px;
+      }
+
+      .startup-buttons {
+        flex-direction: column;
+      }
+
+      .startup-buttons .btn {
+        width: 100%;
+      }
+
+      .included-grid-startup,
+      .support-grid,
+      .checklist {
+        grid-template-columns: 1fr;
+      }
+
+      .journey-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .checklist-box {
+        padding: 30px 20px;
+      }
+    }
+
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "E-commerce Startup",
+    "provider": {
+      "@type": "Organization",
+      "name": "ZyvaX Digital",
+      "url": "https://www.zyvaxdigital.com/"
+    },
+    "description": "E-commerce startup setup including Shopify store, product guidance, tracking, advertising setup and live marketing guidance."
+  }
+  </script>
+
+</head>
+
+<body>
+
+<header>
+
+  <div class="container nav">
+
+    <a href="../index.html" class="logo">
+      ZyvaX <span>Digital</span>
+    </a>
+
+    <nav class="nav-links" id="navMenu">
+
+      <a href="../index.html">Home</a>
+
+      <a href="../index.html#services">Services</a>
+
+      <a href="tiktok-ads.html">TikTok Ads</a>
+
+      <a href="shopify-store-design.html">Shopify Store</a>
+
+      <a href="cod-3pl.html">3PL / COD</a>
+
+      <a href="ecommerce-startup.html">Startup</a>
+
+      <a href="../about.html">About</a>
+
+      <a href="../index.html#contact" class="nav-cta">
+        Get Started →
+      </a>
+
+    </nav>
+
+    <button
+      class="menu-btn"
+      id="menuBtn"
+      aria-label="Open navigation">
+      ☰
+    </button>
+
+  </div>
+
+</header>
+
+
+<main>
+
+
+<!-- =========================================================
+     HERO
+     ========================================================= -->
+
+<section class="startup-hero">
+
+  <div class="container startup-hero-grid">
+
+    <div class="reveal">
+
+      <div class="eyebrow">
+        E-commerce Startup
+      </div>
+
+      <h1>
+        Start from
+        <span class="gradient-text">
+          zero.
+        </span>
+        Build toward your first orders.
+      </h1>
+
+      <p class="startup-copy">
+        Starting an e-commerce business can feel overwhelming
+        when everything needs to be figured out at once.
+        ZyvaX Digital brings the core setup together so you can
+        focus on learning, launching and selling.
+      </p>
+
+      <div class="startup-buttons">
+
+        <a
+          href="https://forms.google.com/"
+          target="_blank"
+          class="btn btn-primary">
+          Launch My Store →
+        </a>
+
+        <a
+          href="../index.html#services"
+          class="btn btn-secondary">
+          Explore Services
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="startup-visual reveal">
+
+      <div class="startup-orb"></div>
+
+      <div class="startup-panel">
+
+        <div class="startup-panel-top">
+
+          <div class="startup-panel-title">
+            Startup Launch System
+          </div>
+
+          <div class="status">
+            READY
+          </div>
+
+        </div>
+
+
+        <div class="startup-flow">
+
+          <div class="startup-step">
+
+            <div class="startup-step-number">
+              01
+            </div>
+
+            <div>
+              <strong>Shopify Store</strong>
+              <small>Build the storefront</small>
+            </div>
+
+          </div>
+
+
+          <div class="startup-step">
+
+            <div class="startup-step-number">
+              02
+            </div>
+
+            <div>
+              <strong>Product Guidance</strong>
+              <small>Choose what to sell</small>
+            </div>
+
+          </div>
+
+
+          <div class="startup-step">
+
+            <div class="startup-step-number">
+              03
+            </div>
+
+            <div>
+              <strong>Tracking & Ads Setup</strong>
+              <small>Prepare for acquisition</small>
+            </div>
+
+          </div>
+
+
+          <div class="startup-step">
+
+            <div class="startup-step-number">
+              04
+            </div>
+
+            <div>
+              <strong>Live Ads Guidance</strong>
+              <small>Learn through execution</small>
+            </div>
+
+          </div>
+
+
+          <div class="startup-step">
+
+            <div class="startup-step-number">
+              05
+            </div>
+
+            <div>
+              <strong>First Orders Support</strong>
+              <small>Move from setup to selling</small>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     PROBLEM
+     ========================================================= -->
+
+<section class="startup-problem">
+
+  <div class="container problem-grid-startup">
+
+    <div class="section-head reveal">
+
+      <div class="section-label">
+        Starting From Zero
+      </div>
+
+      <h2>
+        The hardest part is knowing what to do first.
+      </h2>
+
+      <p>
+        New sellers often have to deal with the store,
+        products, tracking, advertising and operations
+        at the same time.
+      </p>
+
+    </div>
+
+
+    <div class="problem-points reveal">
+
+      <div class="problem-point">
+        Don't know which product to start with
+      </div>
+
+      <div class="problem-point">
+        Don't know how to structure the Shopify store
+      </div>
+
+      <div class="problem-point">
+        Unsure how tracking and pixels work
+      </div>
+
+      <div class="problem-point">
+        Don't know how to launch TikTok Ads
+      </div>
+
+      <div class="problem-point">
+        No practical guidance during the first launch
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     WHAT'S INCLUDED
+     ========================================================= -->
+
+<section>
+
+  <div class="container">
+
+    <div class="section-head reveal">
+
+      <div class="section-label">
+        What's Included
+      </div>
+
+      <h2>
+        The core infrastructure
+        to get started.
+      </h2>
+
+      <p>
+        The startup solution combines the essential pieces
+        required to move from an idea toward a live
+        e-commerce operation.
+      </p>
+
+    </div>
+
+
+    <div class="included-grid-startup">
+
+      <article class="included-card-startup reveal">
+
+        <div class="included-number">
+          01 / STORE
+        </div>
+
+        <h3>
+          Premium Shopify Store
+        </h3>
+
+        <p>
+          A professionally structured Shopify storefront
+          prepared around your product and offer.
+        </p>
+
+      </article>
+
+
+      <article class="included-card-startup reveal">
+
+        <div class="included-number">
+          02 / TRACKING
+        </div>
+
+        <h3>
+          Pixel & Tracking
+        </h3>
+
+        <p>
+          Core tracking setup so your store is prepared
+          for advertising and measurement.
+        </p>
+
+      </article>
+
+
+      <article class="included-card-startup reveal">
+
+        <div class="included-number">
+          03 / ADS
+        </div>
+
+        <h3>
+          Ad Account Setup
+        </h3>
+
+        <p>
+          Primary advertising account setup plus a backup
+          account structure where applicable.
+        </p>
+
+      </article>
+
+
+      <article class="included-card-startup reveal">
+
+        <div class="included-number">
+          04 / PRODUCT
+        </div>
+
+        <h3>
+          Product Guidance
+        </h3>
+
+        <p>
+          Practical guidance around product research,
+          selection and preparing the offer for launch.
+        </p>
+
+      </article>
+
+
+      <article class="included-card-startup reveal">
+
+        <div class="included-number">
+          05 / MARKETING
+        </div>
+
+        <h3>
+          Live Ads Guidance
+        </h3>
+
+        <p>
+          Practical guidance during campaign setup,
+          testing and optimization.
+        </p>
+
+      </article>
+
+
+      <article class="included-card-startup reveal">
+
+        <div class="included-number">
+          06 / SUPPORT
+        </div>
+
+        <h3>
+          First 10 Orders Support
+        </h3>
+
+        <p>
+          Guidance designed to help you move from initial
+          setup toward your first 10 orders.
+        </p>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     JOURNEY
+     ========================================================= -->
+
+<section class="journey">
+
+  <div class="container">
+
+    <div class="section-head reveal">
+
+      <div class="section-label">
+        The Journey
+      </div>
+
+      <h2>
+        One step at a time.
+      </h2>
+
+      <p>
+        The goal isn't to throw everything at you at once.
+        It's to build the business layer by layer.
+      </p>
+
+    </div>
+
+
+    <div class="journey-grid">
+
+      <article class="journey-card reveal">
+
+        <span>01</span>
+
+        <h3>
+          Choose
+        </h3>
+
+        <p>
+          Understand the product,
+          market and offer.
+        </p>
+
+      </article>
+
+
+      <article class="journey-card reveal">
+
+        <span>02</span>
+
+        <h3>
+          Build
+        </h3>
+
+        <p>
+          Create the Shopify
+          storefront.
+        </p>
+
+      </article>
+
+
+      <article class="journey-card reveal">
+
+        <span>03</span>
+
+        <h3>
+          Prepare
+        </h3>
+
+        <p>
+          Configure tracking and
+          advertising infrastructure.
+        </p>
+
+      </article>
+
+
+      <article class="journey-card reveal">
+
+        <span>04</span>
+
+        <h3>
+          Launch
+        </h3>
+
+        <p>
+          Start testing your
+          acquisition strategy.
+        </p>
+
+      </article>
+
+
+      <article class="journey-card reveal">
+
+        <span>05</span>
+
+        <h3>
+          Learn
+        </h3>
+
+        <p>
+          Analyze results and
+          improve through execution.
+        </p>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     CHECKLIST
+     ========================================================= -->
+
+<section>
+
+  <div class="container">
+
+    <div class="checklist-box reveal">
+
+      <div class="section-label">
+        Startup Checklist
+      </div>
+
+      <h2>
+        Your launch foundation,
+        organized.
+      </h2>
+
+      <div class="checklist">
+
+        <div class="checklist-item">
+          Premium Shopify Store
+        </div>
+
+        <div class="checklist-item">
+          Pixel Attached
+        </div>
+
+        <div class="checklist-item">
+          Fully Configured Store
+        </div>
+
+        <div class="checklist-item">
+          Primary Ad Account
+        </div>
+
+        <div class="checklist-item">
+          Backup Ad Account
+        </div>
+
+        <div class="checklist-item">
+          Product Guidance
+        </div>
+
+        <div class="checklist-item">
+          Live Ads Guidance
+        </div>
+
+        <div class="checklist-item">
+          Marketing Guidance
+        </div>
+
+        <div class="checklist-item">
+          First 10 Orders Support
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     LIVE SUPPORT
+     ========================================================= -->
+
+<section>
+
+  <div class="container">
+
+    <div class="section-head reveal">
+
+      <div class="section-label">
+        Practical Support
+      </div>
+
+      <h2>
+        You don't have to figure
+        everything out alone.
+      </h2>
+
+      <p>
+        The startup solution is designed around practical
+        implementation rather than simply handing you
+        a collection of tutorials.
+      </p>
+
+    </div>
+
+
+    <div class="support-grid">
+
+      <article class="support-card reveal">
+
+        <h3>
+          Build With Guidance
+        </h3>
+
+        <p>
+          Get practical help while setting up the core
+          parts of your e-commerce business.
+        </p>
+
+        <ul>
+
+          <li>
+            Shopify setup guidance
+          </li>
+
+          <li>
+            Product selection discussion
+          </li>
+
+          <li>
+            Offer preparation
+          </li>
+
+          <li>
+            Store readiness
+          </li>
+
+        </ul>
+
+      </article>
+
+
+      <article class="support-card reveal">
+
+        <h3>
+          Launch With Guidance
+        </h3>
+
+        <p>
+          Move into advertising with a structured approach
+          to testing and learning.
+        </p>
+
+        <ul>
+
+          <li>
+            TikTok Ads setup
+          </li>
+
+          <li>
+            Campaign preparation
+          </li>
+
+          <li>
+            Testing guidance
+          </li>
+
+          <li>
+            Optimization discussion
+          </li>
+
+        </ul>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     FAQ
+     ========================================================= -->
+
+<section>
+
+  <div class="container">
+
+    <div class="section-head reveal">
+
+      <div class="section-label">
+        FAQ
+      </div>
+
+      <h2>
+        Startup Questions
+      </h2>
+
+    </div>
+
+
+    <div class="faq">
+
+      <div class="faq-item reveal">
+
+        <button class="faq-question">
+          Is this suitable for someone starting from zero?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+
+          <p>
+            Yes. The service is specifically structured for
+            sellers who are starting their e-commerce journey
+            and need the core setup plus practical guidance.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="faq-item reveal">
+
+        <button class="faq-question">
+          Does the package include a Shopify store?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+
+          <p>
+            Yes. The startup setup includes a premium Shopify
+            storefront as part of the core launch infrastructure.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="faq-item reveal">
+
+        <button class="faq-question">
+          Is product selection guaranteed?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+
+          <p>
+            Product guidance is provided, but no product can
+            be guaranteed to succeed. Results depend on the
+            product, offer, creative, advertising budget,
+            competition and market response.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="faq-item reveal">
+
+        <button class="faq-question">
+          Are the first 10 orders guaranteed?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+
+          <p>
+            The service provides support toward the first
+            10 orders. Order volume cannot be guaranteed because
+            performance depends on multiple market and
+            advertising factors.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="faq-item reveal">
+
+        <button class="faq-question">
+          Does this include advertising budget?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+
+          <p>
+            Advertising spend is separate unless specifically
+            stated in your finalized service terms.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="faq-item reveal">
+
+        <button class="faq-question">
+          Can I later use other ZyvaX services?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+
+          <p>
+            Yes. After launch, you can use individual services
+            such as TikTok Ads marketing, Shopify development
+            or 3PL/COD operations according to your business needs.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     FINAL CTA
+     ========================================================= -->
+
+<section class="final-cta">
+
+  <div class="container">
+
+    <div class="cta-box reveal startup-offer">
+
+      <h2>
+        Start your e-commerce journey
+        with the foundation ready.
+      </h2>
+
+      <p>
+        Tell us where you are starting from and we'll
+        help you understand the next step.
+      </p>
+
+      <a
+        href="https://forms.google.com/"
+        target="_blank"
+        class="btn">
+        Launch My Store →
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+
+<footer>
+
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+
+        <a href="../index.html" class="logo">
+          ZyvaX <span>Digital</span>
+        </a>
+
+        <p>
+          Complete e-commerce growth solutions for Pakistani
+          online sellers — from launch to acquisition and operations.
+        </p>
+
+      </div>
+
+
+      <div class="footer-col">
+
+        <h4>
+          Services
+        </h4>
+
+        <a href="tiktok-ads.html">
+          TikTok Ads
+        </a>
+
+        <a href="shopify-store-design.html">
+          Shopify Store Design
+        </a>
+
+        <a href="cod-3pl.html">
+          3PL / COD
+        </a>
+
+        <a href="live-mentorship.html">
+          Live Mentorship
+        </a>
+
+        <a href="ecommerce-startup.html">
+          E-commerce Startup
+        </a>
+
+      </div>
+
+
+      <div class="footer-col">
+
+        <h4>
+          Company
+        </h4>
+
+        <a href="../about.html">
+          About
+        </a>
+
+        <a href="../blog/index.html">
+          Blog
+        </a>
+
+        <a href="../terms.html">
+          Terms & Conditions
+        </a>
+
+      </div>
+
+
+      <div class="footer-col">
+
+        <h4>
+          Contact
+        </h4>
+
+        <a
+          href="https://wa.me/923000000000"
+          target="_blank">
+          WhatsApp
+        </a>
+
+        <a href="mailto:hello@zyvaxdigital.com">
+          hello@zyvaxdigital.com
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+      <span>
+        © 2026 ZyvaX Digital. All rights reserved.
+      </span>
+
+      <span>
+        Pakistan
+      </span>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+<script src="../js/main.js"></script>
+
+</body>
+</html>
